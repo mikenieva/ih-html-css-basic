@@ -1,0 +1,42 @@
+/* 0. IMPORTACIONES */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+
+/* 1. ETIQUETAS */
+/* body - Selector */
+body {
+    /* PROPIEDAD       VALOR */
+    background-color: rgb(230, 230, 230);
+    color: rgb(55, 55, 55);
+} 
+
+a {
+    /* PROPIEDAD QUE QUITA EL SUBRAYADO */
+    text-decoration: none;
+    color: rgb(10, 128, 10);
+    font-weight: bold;
+}
+
+
+/* 2. IDs */
+#titulo-1 {
+    color: red;
+    /* 1rem = 16px */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* 3. CLASES */
+.list {
+    color: #b7b7ff;
+
+}
+
+
+/* 4. MEDIA QUERIES */
